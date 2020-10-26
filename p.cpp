@@ -36,7 +36,7 @@ int main()
     for (arrival = 0.01; arrival <= 10; arrival *= 10) {
         for (service = 0.01; service <= 10.24; service *= 4) {
             out<<"arri = "<<arrival<<"  service = "<<service<<"  ";
-            int cb = 0;     // how many is blocking
+            int cb = 0;     // counts of block num
             int carri = 0;  // counts of arrival time
             int cdep = 0;   // counts of depart time
             int arri_num = 0;
